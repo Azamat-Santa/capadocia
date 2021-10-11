@@ -1,0 +1,647 @@
+@font-face {
+    font-family: 'Balqis';
+    src: url('./font/Balqis font/Balqis.ttf');
+}
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------- Header---------------------- */
+header {
+    width: 100vw;
+    height: 80vh;
+
+}
+
+header {
+    background-image: url('./img/banner.png');
+    background-size: 100% 140%;
+
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.header-contact {
+    margin: 10px;
+}
+
+.header-con-icon {
+    width: 20px;
+    height: 20px;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid black;
+}
+
+.titleBlock {
+    font-family: 'Balqis';
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.titleBlock h1 {
+    font-size: 100px;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+}
+.titleBlock h1::after {
+    content: 'Эксклюзивный тур';
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+
+}
+
+
+
+.title {
+ 
+    margin: 0 auto;
+    text-align: right;
+}
+
+/*===================== section fairy tail=========== */
+
+
+.sectionOne {
+    width: 100%;
+    margin-top: 8vh;
+    padding: 10px;
+}
+
+.secOneTitle {
+    font-family: 'Balqis';
+    line-height: 20px;
+  
+    margin-left: 20%;
+}
+
+.secOneTitle h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: #E2AB3F;
+    position: relative;
+}
+
+.secOneTitle h1::after {
+    content: 'Сказочная страна чудес';
+    position: absolute;
+    top: 43px;
+   
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+
+}
+
+.sectionOneSlider {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.sectionOneSliderLeft {
+    width: 45%;
+    margin-right: 30px;
+}
+
+.sectionOneSliderRight {
+    width: 45%;
+}
+
+/*================== section two ================== */
+.sectionTwo {
+    margin-top: 10vh;
+    padding: 10px;
+}
+
+.secTwoTitle {
+    font-family: 'Balqis';
+    line-height: 20px;
+
+    margin-left: 20%;
+    margin-bottom: 10vh;
+}
+
+.secTwoTitle h1 {
+    font-weight: normal;
+
+    font-size: 50px;
+    color: #E2AB3F;
+    position: relative;
+}
+
+.secTwoTitle h1::after {
+    content: 'Маршрут';
+    position: absolute;
+    top: 43px;
+   
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+
+}
+
+.sectionTwoSlider {
+    display: flex;
+    justify-content: right;
+}
+
+.sectionTwoSliderRight {
+    width: 45%;
+    
+}
+
+.sectionTwoSliderLeft {
+    width: 25%;
+    margin-right: 20%;
+
+}
+
+.btnSecTwo {
+    padding: 10px;
+    border: 1px solid #E2AB3F;
+
+    text-align: center;
+}
+.carousel-inner{
+    
+}
+
+
+/* section three */
+.secThree{
+    margin-bottom: 10vh;
+}
+.sectionWrapper{
+    width: 75%;
+    margin: 10vh auto;
+}
+
+.secThreeTitle {
+    font-family: 'Balqis';
+
+
+    margin-bottom: 10vh;
+    
+}
+.secThreeTitle h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: #E2AB3F;
+    position: relative;
+    
+
+}
+
+.secThreeTitle h1::after {
+    content: 'Sultan Cave Suites';
+    position: absolute;
+    top: 43px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.secThreeBlock{
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+}
+.secThreeBlockLeft {
+    width: 45%;
+    height: 100%;
+}
+.secThreeBlockLeft img{
+width: 100%;
+height: 100%;
+}
+.secThreeBlockRight {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.secThreeBlockRightTop {
+    padding: 0px 10px 0px 10px;
+}
+.secThreeBlockRightBottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+.secThreeBlockRightBottom img{
+    width: 44%;
+    margin: 6px;
+}
+/* ===========section four========== */
+.secFour{
+    margin-bottom: 10vh;
+}
+.secFourTitle {
+    font-family: 'Balqis';
+
+
+    margin-bottom: 10vh;
+    
+}
+.secFourTitle h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: #E2AB3F;
+    position: relative;
+    
+
+}
+
+.secFourTitle h1::after {
+    content: 'Стоимость услуг';
+    position: absolute;
+    top: 43px;
+
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.secFourBlock {
+    display: flex;
+}
+.secFourLeft {
+    width: 33%;
+    margin-right: 10px;
+    padding: 10px;
+}
+.secFourMiddle {
+    width: 33%;
+    padding: 10px;
+
+}
+.secFourRight {
+    position: relative;
+    width: 33%;
+
+
+}
+.parashutOne{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.parashutTwo {
+    position: absolute;
+    top: 50px;
+    width: 100px;
+    height: 160px;
+}
+.parashutThree {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 100px;
+    height: 160px;
+}
+/* section five */
+
+.secFiveTitle {
+    font-family: 'Balqis';
+
+    margin-bottom: 10vh;
+    
+}
+.secFiveTitle h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: #E2AB3F;
+    position: relative;
+    
+
+}
+
+.secFiveTitle h1::after {
+    content: 'Ближайшая дата тура ';
+    position: absolute;
+    top: 43px;
+   
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.secFiveTitleTwo {
+    font-family: 'Balqis';
+ 
+    margin-bottom: 10vh;
+    
+}
+.secFiveTitleTwo h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: #E2AB3F;
+    position: relative;
+    
+
+}
+
+.secFiveTitleTwo h1::after {
+    content: 'Стоимость';
+    position: absolute;
+    top: 43px;
+
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+form input{
+    border: 1px solid #E2AB3F;
+    margin-bottom: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secFiveBlockLeft{
+    width: 25%;
+
+}
+.secFiveBlock{
+    display: flex;
+    justify-content: space-around;
+}
+.secFiveBlockRight{
+    width: 40%;
+    height: 80vh;
+}
+
+.secFiveBlockLeft{
+    margin-top: 2%;
+}
+.secFiveBlockRight img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ============foter=================== */
+
+footer{
+    width: 100vw;
+    height: 140vh;
+position: relative;
+background: url('./img/banner.png');
+background-position: 100% 100%;
+}
+.footerBlock {
+    display: flex;
+}
+.footerBlockLeft {
+    width: 40%;
+}
+.footerBlockLeft{
+    background: url('./img/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92\ 2\ \(2\).png');
+background-repeat: no-repeat;
+height: 70vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 23%;
+margin-top: 5%;
+margin-left: 10%;
+
+}
+
+.footerContact {
+    font-family: 'Balqis';
+    font-size: 70px;
+    color:#E2AB3F ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.footerCall {
+    margin-bottom: 10%;
+}
+.footerCall img{
+width: 30px;
+height: 24px;
+}
+.footerMasseg {
+    margin-bottom: 10%;
+}
+.footerMasseg img{
+width: 30px;
+height: 24px;
+}
+.footerSotsSeti {
+}
+.footerSotsSeti img{
+    height: 30px;
+    width: 30px;
+}
+.footerBlockRight {
+    width: 60%;
+    font-family: 'Balqis';
+    font-size: 80px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* ========================media========================  */
+/* header */
+@media screen and (max-width:800px) {
+    nav ul li{
+        font-size: 13px;
+        margin: 5px;
+    }
+    .titleBlock h1{
+        font-size: 80px;
+    }
+    .titleBlock h1::after{
+        font-size: 30px;
+    }
+    header{
+        height: 60vh;
+    }
+    nav ul{padding-left: 10px;}
+}
+@media screen and (max-width:600px) {
+    nav ul li{
+        font-size: 11px;
+        margin: 2px;
+    }
+    .titleBlock h1{
+        font-size: 50px;
+    }
+    .titleBlock h1::after{
+        font-size: 20px;
+    }
+    header{
+        height: 40vh;
+    }
+}
+
+/* section one */
+@media screen  and (max-width:950px){
+    .sectionOneSlider{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sectionOneSliderLeft{
+        width: 100%;
+    }
+    .sectionOneSliderRight{
+        width: 100%;
+    }
+    .sectionOne{
+        margin: 8vh auto;
+        width: 75%;
+    }
+    .sectionTwo{
+        margin: 8vh auto;
+        width: 75%;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .secOneTitle h1, 
+    .secTwoTitle h1,
+    .secThreeTitle h1,
+    .secFourTitle h1,
+    .secFiveTitle h1,
+    .secFiveTitleTwo h1{
+        font-size: 40px;
+    }
+    .secOneTitle h1::after, 
+    .secTwoTitle h1:after,
+    .secThreeTitle h1::after
+    .secFourTitle h1::after,
+    .secFiveTitle h1::after,
+    .secFiveTitleTwo h1::after{
+        font-size: 13px;
+    }
+  
+}
+/* sec two */
+
+@media screen  and (max-width:950px){
+    .sectionTwoSlider{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sectionTwoSliderLeft{
+        width: 100%;
+        order: 2;
+    }
+    .sectionTwoSliderRight{
+        width: 100%;
+        order: 1;
+    }
+}
+/* sec three  */
+
+@media screen and (max-width:1200px) {
+    .secThreeBlockLeft{
+        display: none;
+    }
+    .secThreeBlockRight{
+        width: 100%;
+    }
+    .secThreeBlockRightBottom img{
+        margin: 13px;
+    }
+    .secThreeBlock{
+        height: auto;
+    }
+}
+@media screen and (max-width:600px) {
+    .secThreeBlockRightBottom img{
+        width: 39%;
+    } 
+    
+}
+
+
+
+/* sec four  */
+
+@media screen and (max-width:1300px) {
+    .secFourLeft{
+width: 50%;
+    }
+    .secFourMiddle{
+        width: 50%;
+    }
+    .secFourRight{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .secFourBlock{
+        flex-direction:column;
+    }
+    .secFourLeft{
+        width: 100%;
+    }
+    .secFourMiddle{
+width: 100%;
+    }
+    
+}
+/* sec five */
+
+@media screen and (max-width:900px) {
+    .secFiveBlockRight{
+        display: none;
+    }
+    .secFiveBlockLeft{
+        width: 100%;
+    }
+    form input{
+        width: 50%;
+        padding: 5px;
+    }
+    .btnSecTwo{
+        width: 50%;
+    }
+}
