@@ -74,12 +74,13 @@ nav ul li:hover {
     font-weight: normal;
     text-align: center;
     position: relative;
+    margin-top: 120px;
 }
 .titleBlock h1::after {
     content: 'Эксклюзивный тур';
     position: absolute;
-    top: 70%;
-    left: 45%;
+    top: 80%;
+    left: 50%;
     
     font-size: 40px;
     color: black;
@@ -198,9 +199,7 @@ nav ul li:hover {
 
     text-align: center;
 }
-.carousel-inner{
-    
-}
+
 
 
 /* section three */
@@ -208,7 +207,7 @@ nav ul li:hover {
     margin-bottom: 10vh;
 }
 .sectionWrapper{
-    width: 75%;
+    width: 80%;
     margin: 10vh auto;
 }
 
@@ -427,17 +426,16 @@ form{
 
 footer{
     width: 100vw;
-    height: 140vh;
+    height: 100vh;
 position: relative;
 background: url('./img/banner.png');
-background-position: 100% 100%;
+background-position: 80% 80%;
+background-repeat: no-repeat;
 }
 .footerBlock {
     display: flex;
 }
-.footerBlockLeft {
-    width: 40%;
-}
+
 .footerBlockLeft{
     background: url('./img/kisspng-flight-hot-air-balloon-computer-icons-aerostat-5afe08ad4b2f92\ 2\ \(2\).png');
 background-repeat: no-repeat;
@@ -445,7 +443,7 @@ height: 70vh;
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 23%;
+width: 360px;
 margin-top: 5%;
 margin-left: 10%;
 
@@ -472,8 +470,7 @@ height: 24px;
 width: 30px;
 height: 24px;
 }
-.footerSotsSeti {
-}
+
 .footerSotsSeti img{
     height: 30px;
     width: 30px;
@@ -495,12 +492,13 @@ height: 24px;
     }
     .titleBlock h1{
         font-size: 80px;
+        margin-top: 100px;
     }
     .titleBlock h1::after{
         font-size: 30px;
     }
     header{
-        height: 60vh;
+        height: 40vh;
     }
     nav ul{padding-left: 10px;}
 }
@@ -510,7 +508,7 @@ height: 24px;
         margin: 2px;
     }
     .titleBlock h1{
-        font-size: 50px;
+        font-size: 45px;
     }
     .titleBlock h1::after{
         font-size: 20px;
@@ -528,17 +526,18 @@ height: 24px;
     }
     .sectionOneSliderLeft{
         width: 100%;
+        margin-bottom: 10px;
     }
     .sectionOneSliderRight{
         width: 100%;
     }
     .sectionOne{
         margin: 8vh auto;
-        width: 75%;
+        width: 80%;
     }
     .sectionTwo{
         margin: 8vh auto;
-        width: 75%;
+        width: 80%;
     }
     
 }
@@ -575,6 +574,7 @@ height: 24px;
     .sectionTwoSliderRight{
         width: 100%;
         order: 1;
+        margin-bottom: 10px;
     }
 }
 /* sec three  */
@@ -645,3 +645,10 @@ width: 100%;
         width: 50%;
     }
 }
+/* footer */
+@media screen and (max-width:450px) {
+    .footerBlockLeft{
+        background:transparent;
+    }  
+}
+
